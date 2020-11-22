@@ -12,7 +12,7 @@ setup(
     name='PlayReleaseApi',         # How you named your package folder (MyLib)
     packages=['PlayReleaseApi'],   # Chose the same as "name"
     # Start with a small number and increase it with every change you make
-    version='0.0.1-alpha',
+    version='0.0.1',
     # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     license='MIT',
     # Give a short description about your library
@@ -23,7 +23,7 @@ setup(
     # Provide either the link to your github or to your website
     url='https://github.com/mahee96/PlayReleaseApi',
     # I explain this later on
-    download_url='https://github.com/mahee96/PlayReleaseApi/archive/v_01.tar.gz',
+    download_url='https://github.com/mahee96/PlayReleaseApi/releases/download/v0.0.1/PlayReleaseApi.zip',
     # Keywords that define your package best
     keywords=['Play', 'GooglePlay', 'Console', 'Play Console',
               'python script', 'Github',

@@ -1,14 +1,14 @@
 {
     "appName": "Github Query",
-    "versionCode": "0",
-    "lastBranch": "",
-    "lastTag": "",
-    "lastReleaseId": "",
+    "versionCode": "1",
+    "lastBranch": "master",
+    "lastTag": "v0.0.1",
+    "lastReleaseId": "34277517",
     "master": {
         "versionName": {
             "major": "0",
             "minor": "0",
-            "patch": "0"
+            "patch": "1"
         }
     },
     "beta": {
