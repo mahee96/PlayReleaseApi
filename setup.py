@@ -2,22 +2,16 @@ from distutils.core import setup
 import setuptools
 from pathlib import Path
 
-setuptools.setup(
-    name="PlayReleaseApi",
-    version=0.1,
-    packages=setuptools.find_packages(exclude=["tests", "data"])
-)
-
 setup(
     name='PlayReleaseApi',         # How you named your package folder (MyLib)
-    packages=['PlayReleaseApi'],   # Chose the same as "name"
     # Start with a small number and increase it with every change you make
-    version='0.0.1',
+    version='0.0.3',
+    packages=setuptools.find_packages(exclude=["tests", "data"]),
+    long_description=Path("README.md").read_text(),
     # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     license='MIT',
     # Give a short description about your library
     description='Release Api script for github and Google Play Console',
-    long_description=Path("README.md").read_text(),
     author='mahee96',                   # Type in your name
     author_email='developer.mahee96@gmail.com',      # Type in your E-Mail
     # Provide either the link to your github or to your website
@@ -34,13 +28,7 @@ setup(
               'CICD',
               'Continuous Integration'],
     install_requires=[            # I get to this in a second
-        'json',
-        'os',
-        're',
         'requests',
-        'subprocess',
-        'sys',
-        'datetime',
     ],
     classifiers=[
         # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
