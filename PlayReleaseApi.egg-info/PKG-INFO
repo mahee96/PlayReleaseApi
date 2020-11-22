@@ -1,12 +1,12 @@
 Metadata-Version: 1.1
 Name: PlayReleaseApi
-Version: 0.0.1
+Version: 0.0.4
 Summary: Release Api script for github and Google Play Console
 Home-page: https://github.com/mahee96/PlayReleaseApi
 Author: mahee96
 Author-email: developer.mahee96@gmail.com
 License: MIT
-Download-URL: https://github.com/mahee96/PlayReleaseApi/releases/download/v0.0.1/PlayReleaseApi.zip
+Download-URL: https://github.com/mahee96/PlayReleaseApi/releases/download/v0.0.4/PlayReleaseApi.zip
 Description: # PlayReleaseApi 
         
         ## Integrates with CI workflow to automate releases
@@ -27,11 +27,3 @@ Description: # PlayReleaseApi
         --------------------------------------------------------------
 Keywords: Play,GooglePlay,Console,Play Console,python script,Github,Release Api,REST Api,CI,CD,CICD,Continuous Integration
 Platform: UNKNOWN
-Classifier: Development Status :: 3 - Alpha
-Classifier: Intended Audience :: Developers
-Classifier: Topic :: Software Development :: Build Tools
-Classifier: License :: OSI Approved :: MIT License
-Classifier: Programming Language :: Python :: 3
-Classifier: Programming Language :: Python :: 3.4
-Classifier: Programming Language :: Python :: 3.5
-Classifier: Programming Language :: Python :: 3.7
