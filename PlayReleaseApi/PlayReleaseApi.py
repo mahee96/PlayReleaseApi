@@ -479,8 +479,8 @@ class PlayReleaseApi:
             return assetPaths  # return entire asset paths received as failed
         assets = self.__resolveAssets(assetPaths)
         uploadUrl = PlayReleaseApi.targetUrl.format('uploads',
-                                                self.username,
-                                                self.repository)
+                                                    self.username,
+                                                    self.repository)
         uploadUrl += '/' + str(self.releaseId) + '/assets?name={}'
         failedAssets = assets[:]
         for assetName, path in assets:
@@ -533,13 +533,9 @@ class PlayReleaseApi:
 
 if __name__ == "__main__":
     ## TEST DRIVER CODE ##
-    release = PlayReleaseApi('mahee96', 'githubquery')
+    release = PlayReleaseApi('mahee96', 'PlayReleaseApi')
     Id = release.releaseIt()
-    if Id < 0:
-        Id = release.releaseIt(retry=True)
     if Id > 0:
         release.uploadAssets([
-            ('', '.md'),                # uploads CHANGELOG.md in root dir
-            ('release_notes', '.md'),   # uploads cumulative unique release notes
-            'version.json'
+            ('', '.zip'),                # uploads CHANGELOG.md in root dir
         ])

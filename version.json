@@ -1,0 +1,30 @@
+{
+    "appName": "Github Query",
+    "versionCode": "0",
+    "lastBranch": "",
+    "lastTag": "",
+    "lastReleaseId": "",
+    "master": {
+        "versionName": {
+            "major": "0",
+            "minor": "0",
+            "patch": "0"
+        }
+    },
+    "beta": {
+        "versionName": {
+            "major": "0",
+            "minor": "0",
+            "patch": "0",
+            "suffix": "beta"
+        }
+    },
+    "alpha": {
+        "versionName": {
+            "major": "0",
+            "minor": "0",
+            "patch": "0",
+            "suffix": "alpha"
+        }
+    }
+}
